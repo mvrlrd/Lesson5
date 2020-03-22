@@ -33,4 +33,11 @@ public class MainActivity extends AppCompatActivity {
         roomPresenter.deleteData();
     }
 
+    public void putListData1(View view){
+        roomPresenter.putListData();
+    }
+    public void updateData(View view){
+        roomPresenter.updateData();
+    }
+
 }

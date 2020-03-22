@@ -24,12 +24,17 @@
         tools:layout_editor_absoluteY="1dp">
 
         <Button
-            android:id="@+id/button"
-            android:onClick="putData1"
+        android:id="@+id/button"
+        android:onClick="putData1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="put Data" />
+        <Button
+            android:id="@+id/button4"
+            android:onClick="putListData1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="32dp"
-            android:text="put Data" />
+            android:text="put List" />
 
         <Button
             android:id="@+id/button2"
@@ -38,6 +43,12 @@
             android:layout_height="wrap_content"
             android:text="get Data" />
 
+        <Button
+            android:id="@+id/button5"
+            android:onClick="updateData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="update" />
         <Button
             android:id="@+id/button3"
             android:onClick="deleteData1"
